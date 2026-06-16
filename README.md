@@ -2,16 +2,18 @@
 Extracted and analyzed Reddit discussions to identify sentiment trends and gain insights from large volumes of unstructured text data.
 Overview
 
-I completed this project to learn more about sentiment analysis and how unstructured text data can be turned into something useful. Using Reddit discussions as the data source, I built a workflow that collected posts, cleaned the data, analyzed sentiment, and exported the results into Google Sheets. The project was a good opportunity to work with real-world text data and see some of the challenges that come with analyzing information that isn't already organized.
+I completed this project to get more experience working with Python and sentiment data. Using a dataset of Reddit posts, I explored how sentiment varied across discussions and looked at how factors such as posting time and user engagement related to positive, neutral, and negative posts. The project gave me the opportunity to work with real-world social media data and practice turning raw data into visual insights.
 
 What I Did
 
-The first step was collecting Reddit data and getting it into a format that could actually be analyzed. Since social media data can be pretty messy, a lot of the work involved cleaning text, removing unnecessary information, and preparing the data before running any analysis. Once the data was ready, I applied sentiment analysis techniques to classify comments and identify overall trends. After that, I automated the reporting process so the results could be exported directly into Google Sheets for easier review.
+I started by loading and preparing the dataset in Python using Pandas. After combining the date and time information, I analyzed how sentiment changed throughout the week and at different times of the day. To better understand the content of the discussions, I created word clouds for positive and negative posts and explored which words appeared most frequently in each group.
+
+I also looked at engagement by comparing upvotes across different sentiment categories. Using visualizations such as bar charts, boxplots, and word clouds, I was able to identify patterns in both sentiment and user interaction. The project focused less on building a predictive model and more on exploring the data to understand what stories it could tell.
 
 Skills Used
 
-Through this project, I worked with data collection, text cleaning, sentiment analysis, workflow automation, and reporting. I also gained more experience working with unstructured data, which was very different from the structured datasets I was used to working with in Excel and SQL. The project helped me understand how much of data analysis happens before the actual analysis begins.
+Through this project, I gained more experience working with Python, Pandas, Matplotlib, Seaborn, and data visualization techniques. I worked with sentiment-labelled data, performed exploratory data analysis, created visualizations, and compared engagement metrics across different sentiment groups. It was also good practice for working with datasets that require some preparation before analysis can begin.
 
-Key Takeaways
+Key Findings
 
-One thing I learned from this project is that getting the data ready is often harder than running the analysis itself. Working with Reddit data meant dealing with inconsistent formatting, different writing styles, and a lot of noise that had to be cleaned before any meaningful results could be generated. While the sentiment analysis was the main focus of the project, I think the biggest thing I gained was experience working with real-world data that doesn't come perfectly organized.
+The analysis showed noticeable differences in engagement across sentiment categories and highlighted how posting activity changed throughout the day and week. Creating the word clouds was particularly interesting because it made it easier to see the types of language commonly associated with positive and negative discussions. While the project was fairly straightforward, it reinforced how useful visualization can be when trying to understand large amounts of text-based data.
